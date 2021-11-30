@@ -13,7 +13,7 @@ setup(
     author_email = 'zhangyu836@gmail.com',
     url = 'https://github.com/zhangyu836/python-xlsx-template',
     packages = ['xlsxtpl'],
-	install_requires = ['openpyxl', 'jinja2', 'six'],
+	install_requires = ['openpyxl', 'jinja2', 'six', 'Pillow'],
     description = ( 'A python module to generate xlsx files from a xlsx template' ),
     long_description = long_description,
     long_description_content_type = "text/markdown",
